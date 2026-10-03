@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    overflow-x: hidden;
+  }
+  body {
+    overflow-wrap: break-word;
+    word-break: normal;
+  }
+  p, h1, h2, h3, h4, h5, h6, span, div, button {
+    overflow-wrap: break-word;
+  }
+}
+
+.font-scale-standard {
+  font-size: 105%;
+}
+
+.font-scale-large {
+  font-size: 118%;
+}
+
+.font-scale-xlarge {
+  font-size: 130%;
+}
